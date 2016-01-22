@@ -12,7 +12,7 @@ namespace IdSvr3Sample.IdSvr.Configuration
     public static X509Certificate2 Load()
     {
       var type = MethodBase.GetCurrentMethod().DeclaringType;
-      using (var stream = type.Assembly.GetManifestResourceStream(type + ".idsrv3test.pfx"))
+      using (var stream = type.Assembly.GetManifestResourceStream(type.Namespace + ".idsrv3test.pfx"))
       {
         return new X509Certificate2(ReadStream(stream), "idsrv3test");
       }
