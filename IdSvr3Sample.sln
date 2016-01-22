@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdSrv", "IdSrv", "{09935C28-23AC-46EC-B9F6-989522E208F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdSvr3Sample.IdSrv.Configuration", "IdSrv\IdSvr3Sample.IdSrv.Configuration\IdSvr3Sample.IdSrv.Configuration.csproj", "{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdSvr3Sample.IdSrv.WebHost", "IdSrv\IdSvr3Sample.IdSrv.Host.Web\IdSvr3Sample.IdSrv.WebHost.csproj", "{476F03F9-55A4-4BDD-B7F6-2D747CF0675B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476F03F9-55A4-4BDD-B7F6-2D747CF0675B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476F03F9-55A4-4BDD-B7F6-2D747CF0675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476F03F9-55A4-4BDD-B7F6-2D747CF0675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476F03F9-55A4-4BDD-B7F6-2D747CF0675B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D73B8C4-3F86-4DFF-9B1E-079D4391EF90} = {09935C28-23AC-46EC-B9F6-989522E208F5}
+		{476F03F9-55A4-4BDD-B7F6-2D747CF0675B} = {09935C28-23AC-46EC-B9F6-989522E208F5}
 	EndGlobalSection
 EndGlobal
