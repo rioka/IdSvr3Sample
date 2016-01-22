@@ -6,6 +6,10 @@ namespace IdSvr3Sample.IdSvr.Configuration.Mockups
 {
   internal class Scopes
   {
+    /// <summary>
+    /// Gets a list of scopes
+    /// </summary>
+    /// <returns>Returns a list of scopes</returns>
     public static IEnumerable<Scope> Get()
     {
       return new[] {

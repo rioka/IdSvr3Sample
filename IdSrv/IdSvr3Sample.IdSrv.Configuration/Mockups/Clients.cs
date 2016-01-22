@@ -7,6 +7,10 @@ namespace IdSvr3Sample.IdSvr.Configuration.Mockups
 {
   internal class Clients
   {
+    /// <summary>
+    /// Gets a list of client applications
+    /// </summary>
+    /// <returns>Returns a list of client applications</returns>
     public static List<Client> Get()
     {
       return new List<Client> {

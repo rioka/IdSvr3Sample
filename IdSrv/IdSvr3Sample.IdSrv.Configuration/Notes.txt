@@ -1,0 +1,3 @@
+﻿Run 
+  install-packages IdentityServer3
+  install-packages Microsoft.Owin.Security.Google

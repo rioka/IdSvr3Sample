@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IdSvr3Sample.Configuration")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("IdSvr3Sample.IdSrv.Configuration")]
+[assembly: AssemblyDescription("Configuration for Identity Server")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IdSvr3Sample.Configuration")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("EasySoft S.r.l.")]
+[assembly: AssemblyProduct("IdSvr3Sample.IdSrv.Configuration")]
+[assembly: AssemblyCopyright("Copyright © EasySoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

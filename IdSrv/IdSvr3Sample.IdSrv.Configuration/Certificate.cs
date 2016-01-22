@@ -9,6 +9,10 @@ namespace IdSvr3Sample.IdSvr.Configuration
   {
     #region Apis
     
+    /// <summary>
+    /// Gets a certificate
+    /// </summary>
+    /// <returns></returns>
     public static X509Certificate2 Load()
     {
       var type = MethodBase.GetCurrentMethod().DeclaringType;
@@ -22,6 +26,11 @@ namespace IdSvr3Sample.IdSvr.Configuration
 
     #region Internals
     
+    /// <summary>
+    /// Read as stream as a byte array
+    /// </summary>
+    /// <param name="input">Input stream</param>
+    /// <returns>Returns the content as array of bytes</returns>
     private static byte[] ReadStream(Stream input)
     {
       var buffer = new byte[16 * 1024];

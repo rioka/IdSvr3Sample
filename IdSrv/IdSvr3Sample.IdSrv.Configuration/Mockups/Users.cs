@@ -7,6 +7,10 @@ namespace IdSvr3Sample.IdSvr.Configuration.Mockups
 {
   internal class Users
   {
+    /// <summary>
+    /// Gets a list of users
+    /// </summary>
+    /// <returns>Returns a list of users</returns>
     public static List<InMemoryUser> Get()
     {
       var users = new List<InMemoryUser> {
