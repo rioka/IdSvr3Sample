@@ -9,6 +9,11 @@ namespace IdSvr3Sample.IdSvr.Configuration
   {
     #region Apis
     
+    /// <summary>
+    /// Setup Identity Server
+    /// </summary>
+    /// <param name="app">Application</param>
+    /// <returns>Returns the configured application</returns>
     public static IAppBuilder UseIdentityServer(this IAppBuilder app)
     {
       app.Map("/core", coreApp => {
@@ -55,6 +60,11 @@ namespace IdSvr3Sample.IdSvr.Configuration
 
     #region Internals
     
+    /// <summary>
+    /// Configure external identity providers
+    /// </summary>
+    /// <param name="app">Application</param>
+    /// <param name="signInAsType"></param>
     static void ConfigureIdentityProviders(IAppBuilder app, string signInAsType)
     {
       var google = new GoogleOAuth2AuthenticationOptions {
